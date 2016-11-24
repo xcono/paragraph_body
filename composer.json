@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "name": "xcono/paragraph_body",
+  "type": "drupal-module",
+  "description": "Provides Body Paragraph type",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://github.com/xcono/paragraph_body",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "support": {
+    "issues": "https://github.com/xcono/paragraph_body/issues",
+    "source": "https://github.com/xcono/paragraph_body"
+  },
+  "require": {
+    "drupal/paragraphs": "~1.0"
+  }
+}

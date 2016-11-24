@@ -1,0 +1,26 @@
+<?php
+
+/**
+ * @file
+ * Contains paragraph_body.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function paragraph_body_help($route_name, RouteMatchInterface $route_match)
+{
+    switch ($route_name) {
+        // Main module help for the paragraph_body module.
+        case 'help.page.paragraph_body':
+            $output = '';
+            $output .= '<h3>' . t('About') . '</h3>';
+            $output .= '<p>' . t('Body paragraph') . '</p>';
+            return $output;
+
+        default:
+    }
+}
+

@@ -1,0 +1,31 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.paragraph_body.field_paragraph_body
+    - field.field.paragraph.paragraph_body.field_paragraph_label
+    - paragraphs.paragraphs_type.paragraph_body
+  module:
+    - text
+id: paragraph.paragraph_body.default
+targetEntityType: paragraph
+bundle: paragraph_body
+mode: default
+content:
+  field_paragraph_body:
+    type: text_trimmed
+    weight: 1
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  field_paragraph_label:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+hidden:
+  created: true
+  uid: true

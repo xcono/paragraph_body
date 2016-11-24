@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.paragraph_body
+  module:
+    - text
+id: paragraph.paragraph_body.field_paragraph_body
+field_name: field_paragraph_body
+entity_type: paragraph
+bundle: paragraph_body
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

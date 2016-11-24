@@ -1,0 +1,8 @@
+name: Body Paragraph
+type: module
+description: Provides Body Paragraph type
+core: 8.x
+package: Paragraphs
+
+dependencies:
+  - Paragraphs
