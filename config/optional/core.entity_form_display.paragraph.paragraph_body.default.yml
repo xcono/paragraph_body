@@ -13,7 +13,7 @@ bundle: paragraph_body
 mode: default
 content:
   field_paragraph_body:
-    type: text_trimmed
+    type: text_default
     weight: 1
     label: hidden
     settings:
