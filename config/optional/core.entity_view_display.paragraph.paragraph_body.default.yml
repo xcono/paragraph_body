@@ -13,19 +13,18 @@ bundle: paragraph_body
 mode: default
 content:
   field_paragraph_body:
-    type: text_trimmed
+    type: text_default
     weight: 1
     label: hidden
-    settings:
-      trim_length: 600
+    settings: {  }
     third_party_settings: {  }
   field_paragraph_label:
+    type: string
     weight: 0
     label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
 hidden:
   created: true
   uid: true
